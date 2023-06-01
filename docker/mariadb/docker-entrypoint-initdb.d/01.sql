@@ -1,0 +1,2 @@
+CREATE DATABASE IF NOT EXISTS `cbt`;
+GRANT ALL ON `cbt`.* TO 'root'@'%';

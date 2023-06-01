@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  php:
+    image: yiisoftware/yii2-php:8.2-apache
+    volumes:
+      - ~/.composer-docker/cache:/root/.composer/cache:delegated
+      - ./:/app:delegated
+    ports:
+      - "8000:80"
+    depends_on:
+      - mariadb
+
+  mariadb:
+    image: mariadb:10.10.4
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: nemo_guide_etalon
+    volumes:
+      - "db_data:/var/lib/mysql"
+      - "./docker/mariadb/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d"
+    ports:
+      - "127.0.0.1:3503:3306"
+
+volumes:
+  db_data:
