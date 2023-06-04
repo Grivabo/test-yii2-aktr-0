@@ -29,7 +29,7 @@ use yii\db\ActiveRecord;
 abstract class TripAR extends ActiveRecord
 {
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public static function tableName(): string
     {
@@ -37,7 +37,7 @@ abstract class TripAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function rules(): array
     {
@@ -50,7 +50,7 @@ abstract class TripAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function attributeLabels(): array
     {
@@ -82,7 +82,7 @@ abstract class TripAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return TripQuery the active query used by this AR class.
      */
     public static function find(): TripQuery

@@ -13,7 +13,7 @@ use yii\db\ActiveQuery;
 class FlightSegmentQuery extends ActiveQuery
 {
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return FlightSegment[]|array
      */
     public function all($db = null): array
@@ -22,7 +22,7 @@ class FlightSegmentQuery extends ActiveQuery
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return FlightSegment|array|null
      */
     public function one($db = null): FlightSegment|array|null

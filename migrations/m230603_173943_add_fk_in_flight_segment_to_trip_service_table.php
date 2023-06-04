@@ -12,7 +12,7 @@ class m230603_173943_add_fk_in_flight_segment_to_trip_service_table extends Migr
     public const INDEX_NAME = "fk-" . self::TABLE_NAME . "-trip_service";
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function safeUp(): void
     {
@@ -28,7 +28,7 @@ class m230603_173943_add_fk_in_flight_segment_to_trip_service_table extends Migr
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function safeDown(): void
     {

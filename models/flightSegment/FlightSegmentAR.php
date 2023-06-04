@@ -46,7 +46,7 @@ use yii\db\ActiveRecord;
 abstract class FlightSegmentAR extends ActiveRecord
 {
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public static function tableName(): string
     {
@@ -54,7 +54,7 @@ abstract class FlightSegmentAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function rules(): array
     {
@@ -71,7 +71,7 @@ abstract class FlightSegmentAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function attributeLabels(): array
     {
@@ -136,7 +136,7 @@ abstract class FlightSegmentAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return FlightSegmentQuery the active query used by this AR class.
      */
     public static function find(): FlightSegmentQuery

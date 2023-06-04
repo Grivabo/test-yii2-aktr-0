@@ -17,7 +17,7 @@ class m230603_173941_load_nemo_guide_etalon_dump extends Migration
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function safeUp(): void
     {
@@ -26,7 +26,7 @@ class m230603_173941_load_nemo_guide_etalon_dump extends Migration
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function safeDown(): void
     {

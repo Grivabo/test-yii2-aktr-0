@@ -13,7 +13,7 @@ use yii\db\ActiveQuery;
 class AirportNameQuery extends ActiveQuery
 {
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return AirportName[]|array
      */
     public function all($db = null): array
@@ -22,7 +22,7 @@ class AirportNameQuery extends ActiveQuery
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return AirportName|array|null
      */
     public function one($db = null): AirportName|array|null

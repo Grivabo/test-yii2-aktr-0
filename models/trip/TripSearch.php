@@ -18,6 +18,7 @@ class TripSearch extends Model
     public ?string $corporateId = null;
     public ?string $serviceId = null;
     public ?string $depAirportId = null;
+
     /**
      * @var bool
      * @see BigActiveDataProvider
@@ -25,7 +26,7 @@ class TripSearch extends Model
     public bool $_isLightPagination = false;
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function rules(): array
     {

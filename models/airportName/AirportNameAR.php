@@ -19,7 +19,7 @@ use yii\db\Connection;
 abstract class AirportNameAR extends ActiveRecord
 {
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public static function tableName(): string
     {
@@ -36,7 +36,7 @@ abstract class AirportNameAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function rules(): array
     {
@@ -49,7 +49,7 @@ abstract class AirportNameAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function attributeLabels(): array
     {
@@ -62,7 +62,7 @@ abstract class AirportNameAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return AirportNameQuery the active query used by this AR class.
      */
     public static function find(): AirportNameQuery

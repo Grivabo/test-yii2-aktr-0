@@ -36,7 +36,7 @@ use yii\db\ActiveRecord;
 abstract class TripServiceAR extends ActiveRecord
 {
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public static function tableName(): string
     {
@@ -44,7 +44,7 @@ abstract class TripServiceAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function rules(): array
     {
@@ -60,7 +60,7 @@ abstract class TripServiceAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function attributeLabels(): array
     {
@@ -106,7 +106,7 @@ abstract class TripServiceAR extends ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return TripServiceQuery the active query used by this AR class.
      */
     public static function find(): TripServiceQuery

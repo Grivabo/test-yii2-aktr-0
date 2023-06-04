@@ -9,7 +9,7 @@ use yii\db\Migration;
 class m230603_173940_load_cbt_dump extends Migration
 {
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function safeUp(): void
     {
@@ -18,7 +18,7 @@ class m230603_173940_load_cbt_dump extends Migration
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      */
     public function safeDown(): void
     {

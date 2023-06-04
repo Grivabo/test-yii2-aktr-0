@@ -13,7 +13,7 @@ use yii\db\ActiveQuery;
 class TripServiceQuery extends ActiveQuery
 {
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return TripService[]|array
      */
     public function all($db = null): array
@@ -22,7 +22,7 @@ class TripServiceQuery extends ActiveQuery
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritDoc
      * @return TripService|array|null
      */
     public function one($db = null): TripService|array|null
