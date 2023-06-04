@@ -1,14 +1,17 @@
 <?php
+declare(strict_types=1);
+
+use yii\db\Connection;
 
 return [
-    'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '',
-    'charset' => 'utf8',
+	'class' => Connection::class,
+	'dsn' => 'mysql:host=mysql;dbname=cbt',
+	'username' => 'root',
+	'password' => $_ENV['MYSQL_ROOT_PASSWORD'],
+	'charset' => 'utf8',
 
-    // Schema cache options (for production environment)
-    //'enableSchemaCache' => true,
-    //'schemaCacheDuration' => 60,
-    //'schemaCache' => 'cache',
+	// Schema cache options (for production environment)
+	//'enableSchemaCache' => true,
+	//'schemaCacheDuration' => 60,
+	//'schemaCache' => 'cache',
 ];
