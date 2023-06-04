@@ -1,2 +1,4 @@
-CREATE DATABASE IF NOT EXISTS `cbt`;
-GRANT ALL ON `cbt`.* TO 'root'@'%';
+CREATE
+DATABASE IF NOT EXISTS `nemo_guide_etalon`;
+GRANT ALL
+ON `nemo_guide_etalon`.* TO 'root'@'%';
