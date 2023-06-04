@@ -49,7 +49,7 @@ class TripsIndexPageWidget extends Widget
     ): array
     {
         /**
-         * @see https://demos.krajee.com/widget-details/select2#usage-ajax $defaultSelectParams
+         * @see https://demos.krajee.com/widget-details/select2#usage-ajax
          */
         $defaultSelectParams = [
             'data' => [],
